@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <script src="https://unpkg.com/@phosphor-icons/web"></script>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=2">
   
 </head>
 <body>
@@ -481,15 +481,24 @@
     </div>
   </footer>
   <script>
-    // Header Scroll Scroll Listener
-    window.addEventListener('scroll', function() {
+    // Header Scroll Listener
+    function adjustHeader() {
       const header = document.querySelector('.site-header');
-      if (window.scrollY > 40) {
+      const topbar = document.querySelector('.topbar');
+      const topbarVisible = topbar && window.getComputedStyle(topbar).display !== 'none';
+      const offset = topbarVisible ? 45 : 0;
+      
+      if (window.scrollY > offset) {
         header.classList.add('scrolled');
+        header.style.top = '0';
       } else {
         header.classList.remove('scrolled');
+        header.style.top = (offset - window.scrollY) + 'px';
       }
-    });
+    }
+    window.addEventListener('scroll', adjustHeader);
+    window.addEventListener('resize', adjustHeader);
+    adjustHeader();
 
     // Before/After Slider Interaction
     const container = document.querySelector('.ba-slider-container');
