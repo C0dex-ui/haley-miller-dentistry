@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Haley Miller, DDS — Dentist in Madisonville, LA</title>
+  <meta name="description" content="Comprehensive dental care in Madisonville, LA. Cosmetic dentistry, oral surgery, implants and more. Call 985-845-3120.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <link rel="stylesheet" href="styles.css">
+  
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="topbar-info">
+        <div><i class="ph ph-map-pin"></i> 377 Highway 21, #102, Madisonville, LA 70447</div>
+        <div><i class="ph ph-phone"></i> 985-845-3120</div>
+      </div>
+      <div class="topbar-actions">
+        <a href="tel:985-845-3120" class="topbar-btn">Request Appointment</a>
+        <a href="tel:985-845-3120" class="topbar-btn">Pay Online</a>
+      </div>
+    </div>
+  </header>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="#home" class="header-logo">
+        <img src="./Haley%20miller%20Dentistry%20logo.webp" alt="Haley Miller Dentistry Logo">
+      </a>
+      <button class="mobile-toggle" onclick="document.querySelector('.header-nav-container').classList.toggle('active')">
+        <i class="ph ph-list"></i>
+      </button>
+      <nav class="header-nav-container"><ul class="header-nav">
+        <li><a href="#home" onclick="document.querySelector('.header-nav-container').classList.remove('active')">Home</a></li>
+        <li><a href="#about" onclick="document.querySelector('.header-nav-container').classList.remove('active')">About Us</a></li>
+        <li><a href="#services" onclick="document.querySelector('.header-nav-container').classList.remove('active')">Services</a></li>
+        <li><a href="#gallery" onclick="document.querySelector('.header-nav-container').classList.remove('active')">Smile Gallery</a></li>
+        <li><a href="#doctors" onclick="document.querySelector('.header-nav-container').classList.remove('active')">Doctors</a></li>
+        <li><a href="#testimonials" onclick="document.querySelector('.header-nav-container').classList.remove('active')">Reviews</a></li>
+        <li><a href="#contact" onclick="document.querySelector('.header-nav-container').classList.remove('active')">Contact</a></li>
+      </ul></nav>
+      <a href="tel:985-845-3120" class="btn-sage" style="padding: 10px 20px; font-size: 0.85rem;"><i class="ph ph-calendar"></i> Book Online</a>
+    </div>
+  </header>
+
+  <section class="hero" id="home">
+    <video autoplay loop muted playsinline class="hero-video">
+      <source src="./Halley%20miller%20hero%20section%20bg%20video.mp4" type="video/mp4">
+    </video>
+    <div class="hero-overlay"></div>
+    <div class="hero-inner">
+      <div class="hero-content">
+        <span class="hero-tag">Welcome to Haley Miller Dentistry</span>
+        <h1>Dental Care For Healthy Smiles</h1>
+        <p>Providing exceptional, personalized family dentistry and advanced aesthetic treatments in Madisonville, LA. Welcoming new patients of all ages.</p>
+        <div class="hero-buttons">
+          <a href="tel:985-845-3120" class="btn-primary">Book Appointment</a>
+          <a href="#about" class="btn-outline">Watch Video</a>
+        </div>
+      </div>
+      
+      <!-- Integrated Booking Form Card -->
+      <div class="hero-form-card">
+        <h3>Schedule a Session</h3>
+        <p>Quick & easy online scheduling</p>
+        <div class="form-group">
+          <label>Select Service</label>
+          <select>
+            <option>General Cleanings</option>
+            <option>Cosmetic Veneers</option>
+            <option>Orthodontic Aligners</option>
+            <option>Restorative Implants</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Choose Date</label>
+          <input type="date" value="2026-07-14">
+        </div>
+        <div class="form-group">
+          <label>Choose Time</label>
+          <input type="time" value="09:00">
+        </div>
+        <button class="btn-primary" style="width: 100%; height: 48px; justify-content: center; margin-top: 8px;"><i class="ph ph-calendar-plus"></i> Request Booking</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section" id="about">
+    <div class="about-grid">
+      <div class="about-img-wrapper">
+        <div class="about-badge">
+          <span class="num">15+</span>
+          <span class="label">Years legacy</span>
+        </div>
+        <img src="./dr-miller.webp" alt="Dr. Haley Miller, DDS">
+      </div>
+      <div class="about-text">
+        <span class="about-tag">Innovative Care With Our Personal Touch</span>
+        <h2>Meet Dr. Haley Miller & The Team</h2>
+        <p>Dr. Haley Miller took over our dental practice in 2022 from Dr. Franco, continuing the legacy of individual, modern, yet gentle oral health care where you feel welcomed and not judged in any way. Dr. Miller promotes a caring, fun atmosphere where every member of the family feels heard and most importantly, safe. If you are looking for a caring provider at our female-owned dental practice, look no further!</p>
+        
+        <div class="about-features">
+          <div class="about-feat-item">
+            <i class="ph ph-shield-check"></i>
+            <div>
+              <h4>Family-Owned & Safe</h4>
+              <p>Comfortable environment tailored for children, teens, and seniors.</p>
+            </div>
+          </div>
+          <div class="about-feat-item">
+            <i class="ph ph-first-aid"></i>
+            <div>
+              <h4>Modern Aesthetics</h4>
+              <p>State of the art treatments including LaseMD Ultra laser & neurotoxins.</p>
+            </div>
+          </div>
+        </div>
+
+        <a href="tel:985-845-3120" class="btn-sage">Learn More About Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Core Prevention / Services Section -->
+  <div class="section-alt" id="services">
+    <section class="section">
+      <div class="section-header">
+        <span class="tag">Our Core Prevention Care</span>
+        <h2>Protect Your Teeth With Preventative Care</h2>
+        <p>From advanced gum treatments to clear aligners, we keep your smile bright and healthy.</p>
+        <div class="accent-line"></div>
+      </div>
+
+      <div class="prevention-grid">
+        <div class="prevention-list">
+          <div class="prevention-item">
+            <div class="prevention-icon"><i class="ph ph-magic-wand"></i></div>
+            <div class="prevention-text">
+              <h4>Cosmetic Dentistry</h4>
+              <p>Transform your smile with veneers, whitening, and bonding.</p>
+            </div>
+          </div>
+          <div class="prevention-item">
+            <div class="prevention-icon"><i class="ph ph-crown"></i></div>
+            <div class="prevention-text">
+              <h4>Restorative Care</h4>
+              <p>High-grade implants, crowns, root canals, and dentures.</p>
+            </div>
+          </div>
+          <div class="prevention-item">
+            <div class="prevention-icon"><i class="ph ph-scissors"></i></div>
+            <div class="prevention-text">
+              <h4>Oral Surgery</h4>
+              <p>Safe, pain-free tooth extractions and bone grafting.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="prevention-center-img">
+          <img src="./dr-miller.webp" alt="Haley Miller Dentistry core services">
+        </div>
+
+        <div class="prevention-list">
+          <div class="prevention-item">
+            <div class="prevention-icon"><i class="ph ph-grid-four"></i></div>
+            <div class="prevention-text">
+              <h4>Orthodontics</h4>
+              <p>Clear aligners, custom night guards, and TMJ adjustments.</p>
+            </div>
+          </div>
+          <div class="prevention-item">
+            <div class="prevention-icon"><i class="ph ph-heartbeat"></i></div>
+            <div class="prevention-text">
+              <h4>Periodontics</h4>
+              <p>Professional gum therapy, scaling, and root planing.</p>
+            </div>
+          </div>
+          <div class="prevention-item">
+            <div class="prevention-icon"><i class="ph ph-activity"></i></div>
+            <div class="prevention-text">
+              <h4>Advanced Aesthetics</h4>
+              <p>Red light therapy, laser aesthetics, and neurotoxins.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Smile Gallery Section -->
+  <div class="section-alt" id="gallery">
+    <section class="section">
+      <div class="section-header">
+        <span class="tag">Smile Transformations</span>
+        <h2>Real Results, Life-Changing Smiles</h2>
+        <p>Slide left and right to see the incredible difference our cosmetic treatments make.</p>
+        <div class="accent-line"></div>
+      </div>
+
+      <div class="gallery-slider-wrapper">
+        <div class="ba-slider-container">
+          <!-- After Image -->
+          <img src="./teeth-after.png" alt="After Treatment - Bright White Smiling Teeth" class="image-after">
+          
+          <!-- Before Image Wrapper -->
+          <div class="ba-before-wrapper">
+            <img src="./teeth-before.png" alt="Before Treatment - Yellow Stained Spaced Teeth" class="image-before">
+          </div>
+          
+          <!-- Slider Control Bar -->
+          <div class="ba-handle">
+            <div class="ba-handle-line"></div>
+            <div class="ba-handle-button">
+              <i class="ph ph-caret-left"></i>
+              <i class="ph ph-caret-right"></i>
+            </div>
+          </div>
+          
+          <!-- Interactive Range Input Overlay -->
+          <input type="range" min="0" max="100" value="50" class="ba-range-input" aria-label="Before after slider controller">
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Doctors Section -->
+  <section class="section" id="doctors">
+    <div class="section-header">
+      <span class="tag">Our Specialists</span>
+      <h2>Bringing Royal Services To Your Life</h2>
+      <p>Our experienced dental team commits to excellence in a supportive, judgment-free space.</p>
+      <div class="accent-line"></div>
+    </div>
+
+    <div class="team-banner">
+      <div class="team-banner-inner">
+        <img src="./team.webp" alt="Haley Miller Dentistry Staff and Team">
+      </div>
+    </div>
+
+    <div class="doctors-grid">
+      <div class="doctor-card">
+        <div class="doctor-img"><img src="./dr-miller.webp" alt="Dr. Haley Miller"></div>
+        <div class="doctor-info">
+          <h3>Dr. Haley Miller</h3>
+          <p>Lead DDS / Owner</p>
+          <div class="doctor-socials">
+            <a href="#"><i class="ph ph-facebook-logo"></i></a>
+            <a href="#"><i class="ph ph-instagram-logo"></i></a>
+            <a href="#"><i class="ph ph-linkedin-logo"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="doctor-card">
+        <div class="doctor-img"><img src="https://www.haleymillerdentistry.com/wp-content/themes/charlie-child/images/577_teammembers.webp" alt="Office Coordinator"></div>
+        <div class="doctor-info">
+          <h3>Meet Our Coordinators</h3>
+          <p>Administrative Support</p>
+          <div class="doctor-socials">
+            <a href="#"><i class="ph ph-facebook-logo"></i></a>
+            <a href="#"><i class="ph ph-instagram-logo"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="doctor-card">
+        <div class="doctor-img"><img src="https://www.haleymillerdentistry.com/wp-content/themes/charlie-child/images/577_officefun.webp" alt="Dental Assistant Team"></div>
+        <div class="doctor-info">
+          <h3>Clinical Hygienists</h3>
+          <p>Dental Hygienists</p>
+          <div class="doctor-socials">
+            <a href="#"><i class="ph ph-facebook-logo"></i></a>
+            <a href="#"><i class="ph ph-linkedin-logo"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust Stats Section -->
+  <section class="trust-banner">
+    <div class="trust-inner">
+      <h2>Trusted by 100+ Madisonville Families</h2>
+      <div class="trust-grid">
+        <div class="trust-item">
+          <i class="ph ph-users"></i>
+          <h3>100%</h3>
+          <p>Patient Satisfaction</p>
+        </div>
+        <div class="trust-item">
+          <i class="ph ph-calendar"></i>
+          <h3>15+</h3>
+          <p>Years legacy</p>
+        </div>
+        <div class="trust-item">
+          <i class="ph ph-star"></i>
+          <h3>4.9</h3>
+          <p>Google Review Score</p>
+        </div>
+        <div class="trust-item">
+          <i class="ph ph-sparkles"></i>
+          <h3>20k+</h3>
+          <p>Healthy Smiles Created</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Dental Appointment Process -->
+  <section class="section">
+    <div class="process-grid">
+      <div class="process-steps">
+        <div class="section-header" style="text-align: left; margin-bottom: 24px;">
+          <span class="tag">Simple Steps</span>
+          <h2>Our Dental Appointment Process</h2>
+        </div>
+        <div class="process-step">
+          <div class="process-num">01</div>
+          <div class="process-step-text">
+            <h4>Select Your Service</h4>
+            <p>Choose cosmetic checkups, orthodontic aligners, or facial aesthetic treatments.</p>
+          </div>
+        </div>
+        <div class="process-step">
+          <div class="process-num">02</div>
+          <div class="process-step-text">
+            <h4>Schedule Date & Time</h4>
+            <p>Choose an available date and time slot using our simplified portal.</p>
+          </div>
+        </div>
+        <div class="process-step">
+          <div class="process-num">03</div>
+          <div class="process-step-text">
+            <h4>Get Treated comfortably</h4>
+            <p>Relax in our warm, friendly, modern clinic in Madisonville, LA.</p>
+          </div>
+        </div>
+      </div>
+      <div class="process-img">
+        <img src="https://www.haleymillerdentistry.com/wp-content/themes/charlie-child/images/577_pediatrics.webp" alt="Pediatric Room and Patient treatment">
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Testimonials -->
+  <section class="section" id="testimonials">
+    <div class="testi-grid">
+      <div class="testi-img-wrapper">
+        <img src="https://www.haleymillerdentistry.com/wp-content/themes/charlie-child/images/575_friends.webp" alt="Client testimonial avatar">
+      </div>
+      <div class="testi-card">
+        <div class="testi-stars">
+          <i class="ph-fill ph-star"></i>
+          <i class="ph-fill ph-star"></i>
+          <i class="ph-fill ph-star"></i>
+          <i class="ph-fill ph-star"></i>
+          <i class="ph-fill ph-star"></i>
+        </div>
+        <p class="testi-quote">"Dr. Haley Miller and her staff are wonderful! They provide gentle, caring, modern treatments. Every member of my family feels safe and heard here. We love our dental visits!"</p>
+        <div class="testi-client">
+          <h4>Sarah B.</h4>
+          <p>Madisonville Resident</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Promo Banners Grid -->
+  <div class="section-alt">
+    <div class="section">
+      <div class="promo-grid">
+        <div class="promo-banner">
+          <img src="https://www.haleymillerdentistry.com/wp-content/themes/charlie-child/images/576_neurotoxin1.webp" alt="Haley Miller Aesthetics">
+          <div class="promo-overlay"></div>
+          <div class="promo-text">
+            <span class="tag">Special Offer</span>
+            <h3>Neurotoxins & LaseMD Ultra Aesthetics</h3>
+            <a href="tel:985-845-3120" class="btn-primary" style="padding: 10px 20px; font-size: 0.85rem;">Learn More</a>
+          </div>
+        </div>
+        <div class="promo-banner">
+          <img src="https://www.haleymillerdentistry.com/wp-content/themes/charlie-child/images/576_neurotoxin2.webp" alt="Haley Miller Dentistry Teeth Whitening">
+          <div class="promo-overlay"></div>
+          <div class="promo-text">
+            <span class="tag">Premium Service</span>
+            <h3>Enhance Your Smile With Veneers</h3>
+            <a href="tel:985-845-3120" class="btn-primary" style="padding: 10px 20px; font-size: 0.85rem;">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog Section -->
+      <div class="section-header">
+        <span class="tag">Our Articles</span>
+        <h2>Latest News And Articles</h2>
+      </div>
+
+      <div class="blog-grid">
+        <div class="blog-card">
+          <div class="blog-img"><img src="https://www.haleymillerdentistry.com/wp-content/themes/charlie-child/images/575_friends.webp" alt="Dental cleanings advice"></div>
+          <div class="blog-info">
+            <div class="blog-meta">
+              <span><i class="ph ph-calendar"></i> July 14, 2026</span>
+              <span><i class="ph ph-tag"></i> Advice</span>
+            </div>
+            <h3>The Importance of Routine Dental Cleanings</h3>
+            <a href="#" class="blog-more">Read More <i class="ph ph-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="blog-card">
+          <div class="blog-img"><img src="https://www.haleymillerdentistry.com/wp-content/themes/charlie-child/images/577_teammembers.webp" alt="Invisalign advice"></div>
+          <div class="blog-info">
+            <div class="blog-meta">
+              <span><i class="ph ph-calendar"></i> July 10, 2026</span>
+              <span><i class="ph ph-tag"></i> Orthodontics</span>
+            </div>
+            <h3>Understanding Invisalign Clear Aligners</h3>
+            <a href="#" class="blog-more">Read More <i class="ph ph-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="blog-card">
+          <div class="blog-img"><img src="https://www.haleymillerdentistry.com/wp-content/themes/charlie-child/images/576_neurotoxin1.webp" alt="Aesthetic treatments guide"></div>
+          <div class="blog-info">
+            <div class="blog-meta">
+              <span><i class="ph ph-calendar"></i> July 05, 2026</span>
+              <span><i class="ph ph-tag"></i> Aesthetics</span>
+            </div>
+            <h3>Aesthetic Treatments: What is LaseMD Ultra?</h3>
+            <a href="#" class="blog-more">Read More <i class="ph ph-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer Section -->
+  <footer class="site-footer" id="contact">
+    <div class="footer-inner">
+      <div class="footer-col footer-about">
+        <img src="./Haley%20miller%20Dentistry%20logo.webp" alt="Haley Miller Dentistry footer logo">
+        <p>Comprehensive family dental care in a warm, welcoming environment. From cosmetic dentistry to advanced periodontics, we serve the Madisonville community with care.</p>
+        <div class="footer-socials">
+          <a href="#"><i class="ph ph-facebook-logo"></i></a>
+          <a href="#"><i class="ph ph-instagram-logo"></i></a>
+          <a href="#"><i class="ph ph-linkedin-logo"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h3>Our Services</h3>
+        <ul class="footer-links">
+          <li><a href="#services">Cosmetic Dentistry</a></li>
+          <li><a href="#services">Restorative Care</a></li>
+          <li><a href="#services">Oral Surgery</a></li>
+          <li><a href="#services">Clear Aligners</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Useful Links</h3>
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#doctors">Our Doctors</a></li>
+          <li><a href="#pricing">Pricing Plans</a></li>
+        </ul>
+      </div>
+      <div class="footer-col footer-contact">
+        <h3>Contact Us</h3>
+        <p><i class="ph ph-map-pin"></i> 377 Highway 21, #102,<br>Madisonville, LA 70447</p>
+        <p><i class="ph ph-phone"></i> 985-845-3120</p>
+        <p><i class="ph ph-clock"></i> Mon–Thu: 8:00am–5:00pm<br>Fri: By Appointment</p>
+      </div>
+    </div>
+    <div class="footer-copy">
+      <p>&copy; 2026 Haley Miller Dentistry. All rights reserved.</p>
+    </div>
+  </footer>
+  <script>
+    // Header Scroll Scroll Listener
+    window.addEventListener('scroll', function() {
+      const header = document.querySelector('.site-header');
+      if (window.scrollY > 40) {
+        header.classList.add('scrolled');
+      } else {
+        header.classList.remove('scrolled');
+      }
+    });
+
+    // Before/After Slider Interaction
+    const container = document.querySelector('.ba-slider-container');
+    const beforeImg = document.querySelector('.image-before');
+    const range = document.querySelector('.ba-range-input');
+    const beforeWrapper = document.querySelector('.ba-before-wrapper');
+    const handle = document.querySelector('.ba-handle');
+
+    function updateSlider() {
+      const val = range.value;
+      beforeWrapper.style.width = val + '%';
+      handle.style.left = val + '%';
+    }
+
+    function resizeBeforeImage() {
+      if (container && beforeImg) {
+        beforeImg.style.width = container.offsetWidth + 'px';
+      }
+    }
+
+    if (range && beforeWrapper && handle) {
+      range.addEventListener('input', updateSlider);
+      window.addEventListener('resize', resizeBeforeImage);
+      // Initialize on load
+      setTimeout(function() {
+        resizeBeforeImage();
+        updateSlider();
+      }, 100);
+    }
+  </script>
+</body>
+</html>
